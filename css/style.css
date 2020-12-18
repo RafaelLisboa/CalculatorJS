@@ -78,7 +78,7 @@ html, body {
     flex-grow: 1;
 }
 
-.number-btn, .operator-btn, #equal {
+.number-btn, .operator-btn, #equal, .clear-btn {
     width: 85px;
     height: 80px;
     margin: 0px 6px ;
@@ -99,10 +99,9 @@ html, body {
     background-color: #444;
 }
 
-#zero {
-    width: calc(90px * 2);
-    margin-right: 6px;
-    margin-left: 10px;
+
+.clear-btn {
+    background-color: darkslategray;
 }
 
 .operators {

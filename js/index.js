@@ -5,6 +5,7 @@ const displayOperator = document.querySelector('#operator');
 const operators = document.querySelectorAll('.operator-btn');
 const equalButton = document.querySelector('#equal');
 const displayResult = document.querySelector('#result');
+const clearButton = document.querySelector('.clear-btn');
 let operatorSelected = false;
 
 
@@ -34,6 +35,10 @@ operators.forEach(element=> {
 
     });
 });
+
+clearButton.addEventListener('click', () => {
+    reset();
+})
 
 equal.addEventListener('click', () => {
     if (displayResult.style.display === 'none' || displayResult.style.display === '') {
