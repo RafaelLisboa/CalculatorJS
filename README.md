@@ -1,4 +1,4 @@
-# CalculatorJS
+# CalculatorJS 🧮
 A simple Calculator that use only HTML, CSS &amp; JS
 
 ## Link https://rafaellisboa.github.io/CalculatorJS/
